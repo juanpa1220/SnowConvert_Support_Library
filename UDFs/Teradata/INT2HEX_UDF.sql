@@ -24,7 +24,7 @@
 -- EQUIVALENT:
 --     TERADATA'S TO_BYTES(INPUT, 'Base10') FUNCTIONALITY
 -- EXAMPLES:
---     SELECT TO_BYTES('448', 'Base10');
+--     SELECT INT2HEX_UDF('448');
 --     RETURNS 01c0
 -- =====================================================================
 CREATE OR REPLACE FUNCTION INT2HEX_UDF (INPUT FLOAT)
